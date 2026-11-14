@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer subtle cadence arc -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,28 A26,26 0 1,1 28,54"
+        android:strokeColor="#4DFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.5" />
+    <!-- Crisp rounded task shield / card silhouette -->
+    <path
+        android:fillColor="#FAF9F6"
+        android:pathData="M41,37 L67,37 A6,6 0 0,1 73,43 L73,65 A6,6 0 0,1 67,71 L41,71 A6,6 0 0,1 35,65 L35,43 A6,6 0 0,1 41,37 Z" />
+    <!-- Bold checkmark cutout in deep teal -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M44,54.5 L51,61.5 L65,46.5"
+        android:strokeColor="#1E5F74"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="5.2" />
+    <!-- Warm terracotta accent dot -->
+    <path
+        android:fillColor="#D97736"
+        android:pathData="M71,33 A4.5,4.5 0 1,1 71,42 A4.5,4.5 0 1,1 71,33 Z" />
+</vector>

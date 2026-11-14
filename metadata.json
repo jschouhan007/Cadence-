@@ -1,0 +1,6 @@
+{
+  "name": "Cadence",
+  "description": "Personal productivity and task manager with offline-first Room persistence, Today dashboard, category workspaces, calendar agenda, and focus insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

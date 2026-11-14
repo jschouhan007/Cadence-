@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Subtle outer shadow halo -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#2E141B29" />
+        </shape>
+    </item>
+    <!-- Floating circular bubble surface -->
+    <item
+        android:bottom="3dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="1dp">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="135"
+                android:endColor="#173CB5"
+                android:centerColor="#2357E8"
+                android:startColor="#4B7CFF"
+                android:type="linear" />
+            <stroke
+                android:width="1.5dp"
+                android:color="#80FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

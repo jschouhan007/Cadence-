@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_bubble_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp">
+
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/widget_bubble_circle"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:background="@drawable/widget_bubble_bg">
+
+            <ImageView
+                android:id="@+id/widget_bubble_icon"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/widget_bubble_open_desc"
+                android:src="@drawable/ic_widget_bubble_mark" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/widget_bubble_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="top|end"
+            android:background="@drawable/widget_badge_bg"
+            android:gravity="center"
+            android:minWidth="20dp"
+            android:paddingHorizontal="5dp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+</FrameLayout>
